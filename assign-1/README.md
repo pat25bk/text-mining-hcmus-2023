@@ -21,7 +21,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Summary
-This python script is used to automatically search for the github repository of a specific paper title without sulfing on web browser
+This python script is used to automatically search for the github repository of a specific paper title without surfing on web browser
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -30,7 +30,7 @@ This python script is used to automatically search for the github repository of 
 In order to run this script, you firstly need to install the selenium library using pip:
 
 ```sh
-  pip install selenium
+pip install selenium
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -40,7 +40,7 @@ In order to run this script, you firstly need to install the selenium library us
 
 Now you can run this script using Python:
 ```sh
-py find_github.py paper_title
+py find_github.py <paper_title>
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
