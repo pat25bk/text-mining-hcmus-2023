@@ -45,4 +45,4 @@ py find_github.py paper_title
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Example
-<img src="assign-1\example.png">
+<img src="https://github.com/pat25bk/text-mining-hcmus-2023/blob/master/assign-1/example.png">
