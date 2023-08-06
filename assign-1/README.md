@@ -14,19 +14,20 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Search Github Repo for Scienctific Papers</h3>
-  
+  <h3 align="center">Assignment 1: Web Crawling</h3>
+  <p align="center">Search Github Repo for Scienctific Papers</p>
+
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## Summary
-This python script is used to automatically search for the github repository of a specific paper title provided
+This python script is used to automatically search for the github repository of a specific paper title without sulfing on web browser
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Prerequisites
 
-In order to run this script, you firstly need to install the selenium library as follow
+In order to run this script, you firstly need to install the selenium library using pip:
 
 ```sh
   pip install selenium
@@ -42,3 +43,6 @@ Now you can run this script using Python:
 py find_github.py paper_title
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Example
+<img src="assign-1\example.png">

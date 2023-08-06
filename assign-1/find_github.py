@@ -9,7 +9,8 @@ def main():
         print("Usage: py main.py paper_title")
         sys.exit(1)
     paperTitle = sys.argv[1]
-
+    
+    print("Searching github repo for "+paperTitle+" ...\n")
     # Initilize Chrome Driver
     # driver = uc.Chrome(headless=True,use_subprocess=False)
     chrome_options = webdriver.ChromeOptions()
@@ -30,7 +31,7 @@ def main():
 
     # Add the title into the textarea
     search_box.clear()
-    search_box.send_keys(paperTitle + " github") # enter your name in the search box
+    search_box.send_keys("github repo of "+paperTitle) # enter your name in the search box
     # print(search_box.get_attribute('value'))
 
     # Send search request
@@ -46,9 +47,9 @@ def main():
         if ("github" in link) and (~("topics" in link)):
             print("Github repo of this paper is: "+link)
         else:
-            print("Not found the github repo for this paper")
+            print("Not found !")
     except NoSuchElementException:
-        print("Not found the github repo for this paper")
+        print("Not found !")
 
     driver.quit()
 
